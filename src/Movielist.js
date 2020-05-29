@@ -32,7 +32,7 @@ class Movielist extends React.Component{
           <h3 className = "movie-title">{item.title}</h3>
           <p>release date:{item.release_date}</p>
         
-         <img className ="movie-poster" src={"http://image.tmdb.org/t/p/w185" + item.poster_path}alt = {item.title + '_poster'}/>
+         <img className ="movie-poster" src={"https://image.tmdb.org/t/p/w185" + item.poster_path}alt = {item.title + '_poster'}/>
         {/*spare code in case show/hide of overview doesn't work*/}
         {/* <p className ="movie-overview">{item.overview}</p>*/}
 
